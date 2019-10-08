@@ -1,13 +1,13 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from "react";
+import "./Body.css";
+//import { API } from "../../config";
 
-const Body = ({name}) => {
+const Body = ({ name }) => {
   return (
     <Fragment>
-      <div className="container">
-        
-      </div>
+      <h3 className="salutation">Welcome, {name}</h3>
     </Fragment>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;

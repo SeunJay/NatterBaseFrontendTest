@@ -1,5 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Dashboard from "./components/dashboard/Dashboard"
+import "./App.css";
 // Redux
 import { Provider } from "react-redux";
 import store from "./store";
@@ -7,9 +9,12 @@ import store from "./store";
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-
-      </div>
+      <Router>
+        {/* <div className="App">hello world</div> */}
+        <Switch>
+          <Route exact path="/" component={Dashboard} />
+        </Switch>
+      </Router>
     </Provider>
   );
 }

@@ -1,0 +1,73 @@
+.nav-container {
+  background: #fff;
+  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  margin: 0 auto;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border: 2px solid #000
+}
+
+.nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  font-family: Avenir Next;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  justify-content: flex-start;
+  margin-top: 24px;
+  margin-left: 100px
+}
+
+
+.dashboard {
+  position: absolute;
+  color: #240f00;
+  width: 79px;
+  height: 18px;
+  left: 197px;
+  top: 31px;
+  font-weight: 700
+}
+
+
+.insurance {
+  position: absolute;
+  color: #737373;
+  width: 99px;
+  height: 18px;
+  left: 321px;
+  top: 31px;
+}
+
+.account-settings{
+  position: absolute;
+  color: #737373;
+  width: 126px;
+  height: 18px;
+  left: 465px;
+  top: 31px;
+}
+
+.profile {
+  position: absolute;
+  color: #737373;
+  width: 154px;
+  height: 40px;
+  left: 1184px;
+  top: 31px;
+}
+
+.list-item {
+  margin-right: 15px;
+  font-size: 12px
+}
+
+

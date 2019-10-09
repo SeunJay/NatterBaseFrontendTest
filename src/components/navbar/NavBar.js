@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -12,7 +13,9 @@ const NavBar = () => {
             </li>
             <li className="dashboard">Dashboard</li>
             <li className="insurance">Buy Insurance</li>
-            <li className="account-settings">Account Settings</li>
+            <Link to="/account-settings">
+              <li className="account-settings">Account Settings</li>
+            </Link>
             <li className="profile">Lois Durello</li>
           </ul>
         </nav>

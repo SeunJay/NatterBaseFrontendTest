@@ -23,7 +23,7 @@
   position: absolute;
   width: 170px;
   height: 24px;
-  left: 102px;
+  left: 210px;
   top: 120px;
   font-size: 22px;
 }
@@ -33,7 +33,7 @@
   position: absolute;
   width: 167px;
   height: 18px;
-  left: 102px;
+  left: 210px;
   top: 154px;
   font-size: 12px;
 }
@@ -51,7 +51,7 @@
   position: absolute;
   width: 284px;
   height: 200px;
-  left: 102px;
+  left: 210px;
   top: 212px;
   background: #fff;
   border-radius: 4px;
@@ -62,7 +62,7 @@
   position: absolute;
   width: 284px;
   height: 200px;
-  left: 419px;
+  left: 521px;
   top: 212px;
   background: #fff;
   border-radius: 4px;
@@ -73,7 +73,7 @@
   position: absolute;
   width: 284px;
   height: 200px;
-  left: 736px;
+  left: 836px;
   top: 212px;
   background: #fff;
   border-radius: 4px;
@@ -84,7 +84,7 @@
   position: absolute;
   width: 284px;
   height: 200px;
-  left: 1053px;
+  left: 1153px;
   top: 212px;
   background: #fff;
   border-radius: 4px;
@@ -120,13 +120,14 @@
 
 .applications {
   position: absolute;
-  left: 6.08%;
+  left: 210px;
   right: 20.15%;
   top: 46.9%;
   bottom: 11.37%;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+  width: 73%
 }
 
 .caption {

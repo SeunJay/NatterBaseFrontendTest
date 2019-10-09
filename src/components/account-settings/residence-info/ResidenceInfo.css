@@ -2,14 +2,15 @@
   position: absolute;
   right: 450px;
   top: 775px;
-  left: 150px;
+  left: 270px;
   bottom: 104px;
   background: #fff;
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   box-shadow: 0px 3px 10px rgba(0, 0,
   0, 0.05);
-  height: 45%
+  height: 45%;
+  width: 67%
 }
 
 

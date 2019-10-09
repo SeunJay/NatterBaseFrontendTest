@@ -4,21 +4,22 @@
   position: absolute;
   right: 450px;
   top: 187px;
-  left: 150px;
+  left: 270px;
   bottom: 644px;
   background: #fff;
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   box-shadow: 0px 3px 10px rgba(0, 0,
   0, 0.05);
-  height: 58%
+  height: 58%;
+  width: 67%
 }
 
 
 .heading {
   position: absolute;
   right: 20.83%;
-  top: 20px;
+  top: 24px;
   left: 9.25%;
   height: 15px;
   font-size: 10px;
@@ -79,9 +80,9 @@
 .small1 {
   position: absolute;
   width: 304px;
-  left: 75px;
-  top: 12px;
-  font-size: 12px;
+  left: 103px;
+  top: 25px;
+  font-size: 10px;
   letter-spacing: -0.4px;
   color: #666;
 }

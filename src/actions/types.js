@@ -1,2 +1,6 @@
 export const GET_STATS = "GET_STATS";
+export const GET_STATS_LOADING = "GET_STATS_LOADING";
+export const GET_APPLICATIONS = "GET_APPLICATIONS";
 export const STATS_ERROR = "STATS_ERROR";
+export const APPLICATIONS_ERROR = "APPLICATIONS_ERROR";
+export const SET_TOKEN = "SET_TOKEN";

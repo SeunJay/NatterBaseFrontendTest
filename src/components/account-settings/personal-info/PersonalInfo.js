@@ -19,7 +19,7 @@ const PersonalInfo = () => {
           <a href="/profile" className="link">
             Update a new profile image
           </a>
-          <p className="small">Maximum size is 600kb of PNG, JPEG, JPG</p>
+          <p className="small1">Maximum size is 600kb of PNG, JPEG, JPG</p>
         </div>
         <div className="email">
           <Title

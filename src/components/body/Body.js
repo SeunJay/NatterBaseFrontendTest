@@ -60,7 +60,7 @@ class Body extends React.Component {
         <p className="date">Monday July 22, 2019.</p>
         <section className="flex-container">
           <div className="box1">
-            <h3 className="figure">{}</h3>
+            <h3 className="figure">06</h3>
             <p className="small">Total Insurance Bought</p>
           </div>
           <div className="box2">

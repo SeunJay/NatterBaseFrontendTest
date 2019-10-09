@@ -53,7 +53,7 @@ class Body extends React.Component {
     // console.log(typeof statistics.statistics.statistics);
     //console.log(applications.applications[0].insuranceType);
     // console.log(Object.values(statistics.statistics.statistics));
-    return loading ? null: (
+    return  (
       
       <div style={{ background: "#e5e5e5" }}>
         <h3 className="salutation">Welcome, {name}</h3>{" "}

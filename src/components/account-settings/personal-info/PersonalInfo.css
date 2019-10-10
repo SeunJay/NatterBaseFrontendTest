@@ -39,7 +39,6 @@
   font-size: 10px;
   line-height: 17px;
   color: #240f00;
-  /* letter-spacing: 1.21333px */
 }
 
 
@@ -47,12 +46,14 @@
   position: absolute;
   width: 114.23px;
   height: auto;
-  left: 23.25px;
+  left: 40.25px;
   top: 85.43px;
-  /* background-image: url(../personal-info/img_avatar.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
+}
+
+.photo {
+  width: 45%;
+  height: auto;
+  border-radius: 50%
 }
 
 .email {
@@ -70,8 +71,7 @@
   text-decoration-line: underline;
   position: absolute;
   width: 168px;
-  left: 102px;
-  /* top: 329px */
+  left: 72px;
   font-size: 12px;
   letter-spacing: -0.4px;
   color: #4c0032
@@ -80,7 +80,7 @@
 .small1 {
   position: absolute;
   width: 304px;
-  left: 103px;
+  left: 72px;
   top: 25px;
   font-size: 10px;
   letter-spacing: -0.4px;

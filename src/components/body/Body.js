@@ -18,6 +18,8 @@ class Body extends React.Component {
     const { name } = this.props;
     const { fetching, fetched, statistics } = this.props.stats;
     const { loaded, applications } = this.props.applications;
+    console.log(statistics);
+    console.log(loaded)
     const {
       totalInsurancesBought,
       totalInsuranceAmount,

@@ -15,7 +15,7 @@ const PersonalInfo = () => {
         </p>
 
         <div className="photo-container">
-          <img src="./img_avatar.png" alt="photo1" className="photo" />
+          <img src="/assets/img_avatar.png" alt="photo1" className="photo" />
           <a href="/profile" className="link">
             Update a new profile image
           </a>

@@ -17,7 +17,7 @@ class Body extends React.Component {
   render() {
     const { name } = this.props;
     const { fetching, fetched, statistics } = this.props.stats;
-    const { loaded, applications } = this.props.applications;
+    const {loaded, applications } = this.props.applications;
     const {
       totalInsurancesBought,
       totalInsuranceAmount,
@@ -83,7 +83,7 @@ class Body extends React.Component {
                       </li>
                       <li className="point amount1">{el.amount}</li>
                       <li className="point date2">
-                        <Moment format="DD/MM/YYYY">{el.createdDate}</Moment>
+                        <Moment format="DD/MM/YYYY">sentence({el.createdDate})</Moment>
                       </li>
                       <button className={el.complete ? "btn-green" : "btn-red"}>
                         <p style={{ fontSize: "12px" }}>

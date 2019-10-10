@@ -80,7 +80,7 @@ class Body extends React.Component {
           <div className="container">
             <h3 className="caption">Insurance Applications</h3>
           </div>
-          <div className="underline"></div>
+          <div className="underline1"></div>
           <div className="container2">
             <p className="sn">S.N</p>
             <p className="insurance-type">Insurance Type</p>
@@ -106,7 +106,6 @@ class Body extends React.Component {
                 </li>
                 <button className={el.complete ? "btn-green" : "btn-red"}>
                   <p style={{ fontSize: "12px" }}>
-                    <span className="ellipse">.</span>
                     {el.complete ? "Complete" : "Incomplete"}
                   </p>
                 </button>

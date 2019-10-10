@@ -1,23 +1,32 @@
-import { GET_STATS, STATS_ERROR } from "../actions/types";
+import { GET_STATS } from "../actions/types";
 
 export const initialState = {
   statistics: {},
-  loading: true,
+  fetching: false,
+  fetched: false,
   error: {}
 };
 
 export default function(state = initialState, action) {
   const { type, payload } = action;
   switch (type) {
-    case GET_STATS:
+    case `${GET_STATS}_PENDING`:
       return {
         ...state,
-        statistics: payload,
-        loading: false
+        fetching: true
       };
-    case STATS_ERROR:
+    case `${GET_STATS}_FULFILLED`:
       return {
         ...state,
+        fetching: false,
+        fetched: true,
+        statistics: payload.data.statistics
+      };
+    case `${GET_STATS}_REJECTED`:
+      return {
+        ...state,
+        fetching: false,
+        fetched: false,
         error: payload
       };
     default:
